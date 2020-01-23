@@ -88,4 +88,15 @@ header nav a {
 footer {
 	margin: 25px;
 	padding: 10px;
+	width: 15%;
+	height: auto;
+}
+a:link {
+	color: black;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: greenyellow;
 }
