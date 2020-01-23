@@ -77,9 +77,15 @@ header nav{
 }
 
 header img.logo{
-margin-left: 120px;
+margin-left: 10px;
+display: inline-block;
 }
 
 header nav a {
-	margin: 0 20px;
+	margin: 25px;
+	padding: 10px;
+}
+footer {
+	margin: 25px;
+	padding: 10px;
 }
