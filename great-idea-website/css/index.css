@@ -67,36 +67,97 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 900px;
-	margin: auto;
-	border: 1px solid blue;
+	margin: 0 auto;
+	position: relative;
 
 }
-header nav{
+nav{
 	display: inline-block;
 	margin-top: 25px;
+	width: 650px;
+	padding: 30px 0;
+	top: 0;
+}
+nav a {
+	margin: 25px 0 25px 25px
+
+}
+nav a:hover {
+	background: gray;
+	color: red;
+}
+.logo { 
+	position:absolute;
+	right: 0px;
 }
 
-header img.logo{
-margin-left: 10px;
-display: inline-block;
+header {
+	top:60px;
+	position: relative;
+	height: 400px;
 }
-
-header nav a {
-	margin: 25px;
-	padding: 10px;
+.matrix{
+	position: absolute;
+	right: 0;
+	top: -60px;
 }
-footer {
-	margin: 25px;
-	padding: 10px;
-	width: 15%;
-	height: auto;
+.slogan {
+	left: 0;
+	position: absolute;
+	font-size: 25px;
 }
-a:link {
-	color: black;
+.block-info {
+	width: 480px;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 1px;
+	margin: 94px 0 0 0; 
 }
-a:visited {
-	color: white;
+button {
+	margin-left: 150px;
+	text-align: center;
+	background: white;
+	padding: 10px 50px;
 }
-a:hover {
-	color: greenyellow;
+button:hover {
+	background: gray;
+	color: red;
+}
+.middle-img {
+	padding: 0;
+	margin-top: 30px;
+	height: 200px;
+}
+.block-1 {
+	border-top: 1px solid black;
+	display: inline-block;
+	margin-top: 30px;
+}
+.block-2 {
+	border-top: 1px solid black;
+	margin-top: 30px;
+	height: 200px;
+}
+section h4 {
+	width: 400px;
+}
+p {
+	color: #444444;
+	line-height: 1em;
+}
+.block1 .block-info {
+	width: 430px;
+	float: left;
+	padding: 35px 0;
+}
+.block-2 .block-info {
+	width: 300px;
+	float: left;
+}
+address{
+	clear: left;
+	height: 200px;
+	width: 300px;
+	padding: 25px;
+	margin: 50px 0;
 }
