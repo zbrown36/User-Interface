@@ -79,7 +79,8 @@ nav{
 	top: 0;
 }
 nav a {
-	margin: 25px 0 25px 25px
+	margin: 25px 0 25px 25px;
+	color: lightgray;
 
 }
 nav a:hover {
@@ -102,9 +103,11 @@ header {
 	top: -60px;
 }
 .slogan {
-	left: 0;
+	margin-left: 150px;
+	margin-top: 50px;
 	position: absolute;
 	font-size: 25px;
+	text-align: center; 
 }
 .block-info {
 	width: 480px;
@@ -114,7 +117,8 @@ header {
 	margin: 94px 0 0 0; 
 }
 button {
-	margin-left: 150px;
+	margin-left: 120px;
+	margin-top: 175px;
 	text-align: center;
 	background: white;
 	padding: 10px 50px;
@@ -130,8 +134,6 @@ button:hover {
 }
 .block-1 {
 	border-top: 1px solid black;
-	display: inline-block;
-	margin-top: 30px;
 }
 .block-2 {
 	border-top: 1px solid black;
@@ -146,9 +148,8 @@ p {
 	line-height: 1em;
 }
 .block1 .block-info {
-	width: 430px;
+	width: 300px;
 	float: left;
-	padding: 35px 0;
 }
 .block-2 .block-info {
 	width: 300px;
